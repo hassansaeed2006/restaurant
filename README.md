@@ -19,16 +19,15 @@
 ### 📋 Menu Page
 - Items loaded from the database
 - Food item images, names, prices, and "Add to Cart" buttons
-- Category filtering (optional)
+- Category filtering 
 
 ### 🛒 Cart System
 - Add/remove items
 - Cart stored via session or database
-- Checkout form (optional)
+- Checkout form 
 
 ### 👤 Profile Page
 - View and edit user info
-- Past orders (optional)
 - Logout button
 
 ---
@@ -56,7 +55,7 @@ project/
 ├── signup.php # Sign-up processing (backend)
 ├── db_connect.php # Database connection
 ├── cart_operations.php # Handles cart actions
-├── profile_operations.php # (Optional) Profile actions
+├── profile_operations.php #  Profile actions
 │
 ├── /css/
 │ ├── start.css
