@@ -75,5 +75,5 @@ project/
 │ ├── signup.js
 │ └── profile.js
 │
-├── /Photos/ # (Optional) Food or UI images
-└── /Videos/ # (Optional) Media files
+├── /Photos/ #  
+└── /Videos/ # 
