@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - B-Laban</title>
+  <link rel="stylesheet" href="cart.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="menu.php" class="logo-link">
+      <img src="Photos/بلبن.png" alt="B-Laban Logo" id="b-laban-logo" />
+    </a>
+    <div class="profile-container">
+      <div class="profile-icon" onclick="toggleDropdown()">
+        <img src="Photos/profile.webp" alt="Profile Photo" />
+      </div>
+      <div class="dropdown-menu" id="dropdownMenu">
+        <a href="profile.html">Profile</a>
+        <a href="#" onclick="signOut()">Sign Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cart-container">
+    <h1 class="page-title">Your Shopping Cart</h1>
+    <div id="cartContent">
+      <!-- Cart table will be rendered here -->
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>

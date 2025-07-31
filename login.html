@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B Leban Login</title>
+  <link rel="stylesheet" href="start.css" />
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-wrapper">
+      <img src="Photos/بلبن.png" alt="B Leban Logo" class="logo" />
+      <h2>Login</h2>
+      <div id="alert" style="color: red; margin-bottom: 10px;"></div>
+
+      
+      <form id="loginForm" method="post" action="login.php">
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password" required />
+        </div>
+        <button type="submit" class="submit-btn">Login</button>
+        <p>
+          Don’t have an account?
+          <a href="signup.html">Create an account</a>
+        </p>
+      </form>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
